@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Student from './components/Student';
 function App() {
+
+  let students=
+  [
+    {
+      name:"Syed Imran",
+      dept:"CSE",
+    },
+    {
+      name:"Yogesh",
+      dept:"Mech"
+    },
+    {
+      name:"Roopa",
+      dept:"ISE"
+    },
+    {
+      name:"Sourabh",
+      dept:"Civil"
+    }
+  ]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Student name={students[0].name} dept={students[0].dept}/>
+      <Student name={students[1].name} dept={students[1].dept}/>
+      <Student name={students[2].name} dept={students[2].dept}/>
+      <Student name={students[3].name} dept={students[3].dept}/>
     </div>
   );
 }
