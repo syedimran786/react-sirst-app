@@ -1,0 +1,9 @@
+JSX
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. 
+JSX makes it easier to write and add HTML in React.
+
+Rules for JSX (reference Link: https://medium.com/nerd-for-tech/jsx-rules-in-react-a-javascript-framework-4b0ab66fdbf9)
+    1.There should be only one parent/root Element/tag
+    2.We should not use class Attribute for css classes instead we have to use className Attribute
+    3.We should not use for Attribute  instead we have to use htmlFor Attribute
+    4.Mandatory Unpaired tag should be suffixed with forward slash
