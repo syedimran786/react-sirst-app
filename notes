@@ -1,4 +1,30 @@
-JSX
+1.What is Component in Reactjs? 
+---A Component is one of the core building blocks of React. In other words, we can say that every application you will develop in React will be made up of pieces called components. Components make the task of building UIs much easier. You can see a UI broken down into multiple individual pieces called components and work on them independently and merge them all in a parent component which will be your final UI. 
+You can see in the below image we have broken down the UI of GeeksforGeeks’s homepage into individual components. 
+// Types of components
+    1.Class Based Components (Stateful/Container/smart)
+    2.Functional Based Components (Stateless/presentational/dumb)
+
+---> 1.Class Based Components (Stateful/Container/smart)
+    -->We create using es6 class
+    --> It has its own state Object {}
+--->2.Functional Based Components (Stateless/presentational/dumb)
+    -->We Use javascript  functions
+    -->It doesn't have its own state Object {}
+    -->We use props(properties)
+till 16.7 version (Class Based Components (Stateful/Container/smart))
+16.8 React Hooks
+
+2.What is props?
+It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from one component to other components. It is similar to function arguments. Props are passed to the component in the same way as arguments passed in a function.
+
+3.What is React Hooks?
+Hooks are the new feature introduced in the React 16.8 version. It allows you to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
+4.What is State? 
+The state is an instance of React Component Class can be defined as an object of a set of observable properties that control the behavior of the component. In other words, the State of a component is an object that holds some information that may change over the lifetime of the component.
+
+
+5.What is JSX in reactjs?
 JSX stands for JavaScript XML. JSX allows us to write HTML in React. 
 JSX makes it easier to write and add HTML in React.
 
