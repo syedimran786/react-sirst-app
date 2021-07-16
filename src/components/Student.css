@@ -1,5 +1,26 @@
-.student-bg
+table,tr,th,td
 {
-    background-color: crimson;
-    color:white
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table
+{
+    width: 100%;
+    margin: 40px auto;
+    background-color: #efefef;
+}
+
+img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+thead
+{
+    background-color: black;
+    color: white;
 }
